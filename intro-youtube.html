@@ -14,6 +14,11 @@
       font-family: Roboto, Noto, sans-serif;
     }
 
+    .banner {
+      padding-left: 20.5px;
+      padding-right: 20.5px;
+    }
+
     .channel-banner{
       width: 1070px;
       height: 172.469px;
@@ -22,19 +27,65 @@
       /* object-position: top; */     /* vi tri cua img trong border cua no */
       border-radius: 12px;
     }
-
+    
     .search-bar{
       font-size : 16px;
       font-weight: 400;
     }
+
+    .img-avatar{
+      display: block;
+      margin-right: 16px;
+      width: 160px;
+    }
+
+    .avatar-img {
+      border-image-width: 1;
+      width: 160px;
+    }
+
+    .page-header-view-model {
+      display: flex;
+    }
+
+    .channel-name {
+      display: inline;
+    }
+
+    .decription-1 {
+      display: inline;
+    }
+    
   </style>
 </head>
 <body>
-  <img src="intro-youtube_img/channels4_banner.jpg" alt="" class="channel-banner">
-<!--   <img src="intro-youtube_img/yoasobi-ytb.jpg" alt="" class="page-header-banner-img">
- -->
- <input type="text" 
- placeholder="Search"
- class="search-bar">
+  <input type="text"   placeholder="Search"  class="search-bar">
+  <div class="page-header">
+    <div class="banner">
+      <img src="intro-youtube_img/channels4_banner.jpg" alt="" class="channel-banner">
+    </div>
+    <div class="atv-dec">
+      <div class="img-avatar">
+        <img src="intro-youtube_img\yoasobi-ytb.jpg" alt="" class="avatar-img">
+      </div>
+      <div class="page-header-view-model">
+        <div class="decription">
+          <p class="channel-name">
+            Ayase / YOASOBI
+            <span>♪</span>
+            </p>
+            <p class="decription-1">
+            @Ayase_YOASOBI &#183; 6.61M subscribers &#183; 211 videos
+            </p>
+            <p class="decription-2">
+            シンガーソングライター、ボカロPのAyase、そしてAyaseがコンポーザーを務めるユニット・YOASOBIのYouTubeチャンネルです。
+            </p>
+        </div>
+    </div>
+  </div>
+    <!--   <img src="intro-youtube_img/yoasobi-ytb.jpg" alt="" class="page-header-banner-img">
+    -->
+  </div>
+  
 </body>
 </html>
